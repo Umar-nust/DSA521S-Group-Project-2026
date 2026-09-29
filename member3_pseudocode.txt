@@ -1,0 +1,31 @@
+PUSH(value)
+    top = top + 1
+    data[top] = value
+END PUSH
+
+POP()
+    value = data[top]
+    top = top - 1
+    return value
+END POP
+
+PEEK()
+    return data[top]
+END PEEK
+
+EVALUATE(expression)
+    parts = split expression into pieces by spaces
+    stack = new empty Stack
+    for each piece in parts
+        if piece is + or - or * or x or /
+            right = stack.pop()
+            left = stack.pop()
+            result = apply piece to left and right
+            stack.push(result)
+        else
+            number = convert piece to number
+            stack.push(number)
+        end if
+    end for
+    return stack.pop()
+END EVALUATE
