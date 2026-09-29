@@ -8,7 +8,7 @@ DSA521S Group Project 2026 - Campus Service Centre Simulation (Java Data Structu
 * [226010058] - [Shilondelo Erastus]
 * [226029905] - [Lazarus Jessica]
 * [226075583] - [Johanna Nghidileko]
-* [Student Number 5] - [Full Name 5]
+* [226034429] - [Umar Sabano]
 
 # Campus Service Centre Simulation (NUST DSA521S)
 
